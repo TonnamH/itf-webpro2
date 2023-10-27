@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    border: 3px solid gray;
+    width: 1024px;
+    margin: auto;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noti {
+    position: absolute;
+    display: grid;
+    background-color: tomato;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    color: white;
+}
+
+.avatar {
+    background-color: gray;
+    overflow: auto;
+    width: 128px;
+    height: 128px;
+    border-radius: 9999px
+}
+
+.flex-item-1 {
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
